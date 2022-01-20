@@ -1,6 +1,6 @@
 # Jamulus Azure ACI Automation
 
-This Powershell script is all you need to install Jamulus on an Azure Container Instance.  Azure ACI is a serverless runtime for Docker containers.
+This Powershell script is all you need to install Jamulus on an Azure Container Instance.
 
 All credit for the Jamulus docker image should be directed here: https://github.com/grundic/jamulus-docker
 

@@ -16,7 +16,7 @@ First, log in to Azure:
 
         az login
         
-Then, download this Powershell script and execute it from any folder:
+Then, execute the script:
 
         ./jamulus-docker-azure-aci.ps1
         

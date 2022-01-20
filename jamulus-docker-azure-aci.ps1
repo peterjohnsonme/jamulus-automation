@@ -12,7 +12,7 @@ $azureserverlocation = 'eastus'
 az container create --resource-group $resourcegroupname `
 --name $servername `
 --image grundic/jamulus <# Use the following image: https://github.com/grundic/jamulus-docker #>`
---command-line "/usr/local/bin/Jamulus -e TZ=America/Chicago -d -n -s -p 22124 -l /jam/jamulus.log -w 'Welcome to the $servername jam server.' -T" `
+--command-line "/usr/local/bin/Jamulus -d -n -s -p 22124 -l /jam/jamulus.log -w 'Welcome to the $servername jam server.' -T" `
 --ports 22124 <# Expose the Jamulus UDP port defined in command-line to the internet #>`
 --protocol UDP `
 --ip-address Public <# Assign a public IP address to this instance #>`
